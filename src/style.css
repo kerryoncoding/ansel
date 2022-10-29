@@ -1,0 +1,15 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.main {
+    text-align: center;
+}
+
+.photoFrame {
+    border: 2px solid grey;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-bottom: 25px;
+}
