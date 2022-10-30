@@ -1,6 +1,5 @@
 
 
-
 function getNumber() {
         function getRandomInt(min, max) {
         min = Math.ceil(min);
@@ -9,9 +8,8 @@ function getNumber() {
         document.querySelector(".photoFrame").setAttribute("src", `images/${number}.jpg`)
         return null;
     }
-    getRandomInt(10,32); 
+    getRandomInt(10,67); 
 }
-
 
 
 document.querySelector("#imageGenerator").addEventListener("click", getNumber);
