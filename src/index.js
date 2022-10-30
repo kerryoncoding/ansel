@@ -1,9 +1,17 @@
 
 
-function nextImage(){
-    getImage = 11;
-    document.querySelector(".photoFrame").setAttribute("src", `/images/${getImage}.jpg`);
+
+function getNumber() {
+        function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        number=(Math.floor(Math.random() * (max - min) + min));
+        document.querySelector(".photoFrame").setAttribute("src", `images/${number}.jpg`)
+        return null;
+    }
+    getRandomInt(10,32); 
 }
 
-let getImage= 10;
-document.querySelector("#imageGenerator").addEventListener("click", nextImage);
+
+
+document.querySelector("#imageGenerator").addEventListener("click", getNumber);
