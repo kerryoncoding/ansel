@@ -1,10 +1,25 @@
 body {
-    color: white;
-    background-color: black;
+    background-color: black !important;
 }
 
 .main {
     text-align: center;
+    color: white;
+    background-color: black;
+    Margin-top:25px;
+}
+
+.main h1 {
+    font-size:60px;
+}
+
+.main h2 {
+    font-size: 45px;
+}
+
+.main h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 .photoFrame {
@@ -15,6 +30,6 @@ body {
     margin: 0 auto;
 }
 
-button {
+.button {
     margin: 25px;
 }
