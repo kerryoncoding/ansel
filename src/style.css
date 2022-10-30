@@ -1,20 +1,20 @@
 body {
-    background-color: black !important;
+    background-color: rgb(19, 19, 19) !important;
 }
 
 .main {
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     Margin-top:25px;
 }
 
 .main h1 {
-    font-size:60px;
+    font-size:65px;
 }
 
 .main h2 {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .main h3 {
