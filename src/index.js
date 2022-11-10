@@ -8,7 +8,7 @@ function getNumber() {
         document.querySelector(".photoFrame").setAttribute("src", `images/${number}.jpg`)
         return null;
     }
-    getRandomInt(10,67); 
+    getRandomInt(10,66); 
 }
 
 
